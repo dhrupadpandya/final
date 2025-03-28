@@ -28,7 +28,10 @@ const Navbar = () => {
         <Link href="/" className="hover:text-gray-900 transition">
           About Us
         </Link>
-        <Link href="" className="hover:text-gray-900 transition">
+        <Link
+          href="https://denser.ai/u/embed/ef5b29f4-4f71-4272-9d4c-d5981974ff23"
+          className="hover:text-gray-900 transition"
+        >
           Contact
         </Link>
 
