@@ -15,6 +15,12 @@ export default function RootLayout({ children }) {
   return (
     <ClerkProvider>
       <html lang="en">
+        <iframe
+          width="100%"
+          height="600"
+          frameborder="0"
+          src="https://denser.ai/u/embed/ef5b29f4-4f71-4272-9d4c-d5981974ff23"
+        ></iframe>
         <body className={`${outfit.className} antialiased text-gray-700`}>
           <Toaster />
           <AppContextProvider>{children}</AppContextProvider>
