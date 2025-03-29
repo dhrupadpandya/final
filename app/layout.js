@@ -15,7 +15,11 @@ export default function RootLayout({ children }) {
   return (
     <ClerkProvider>
       <html lang="en">
+<<<<<<< HEAD
         <body className={`${outfit.className} antialiased text-gray-700`}>
+=======
+        <body className={`${outfit.className} antialiased text-gray-700`} >
+>>>>>>> parent of 4ea383e (ok)
           <Toaster />
           <AppContextProvider>{children}</AppContextProvider>
         </body>
